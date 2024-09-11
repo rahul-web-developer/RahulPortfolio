@@ -20,6 +20,8 @@ const ContactUs = () => {
         body: JSON.stringify(values),
       });
       const result = await response.json();
+      console.log("result => ", result)
+      
       form.resetFields();
       message.success("Thanks for visiting our website, we will reach you soon!");
     } catch (error) {
