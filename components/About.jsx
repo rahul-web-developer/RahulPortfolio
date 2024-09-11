@@ -32,7 +32,7 @@ const About = () => {
               Hi, I’m <span className="text-[#FF014F]">Rahul</span>
             </h1>
             <div className="text-1xl md:text-4xl font-bold flex gap-4 items-center">
-              <span className="text-[#FF014F]">I am</span>
+              <span className="text-[#1E2125]">I am</span>
               <h1
                 className="font-bold t md:text-3xl bg-gradient-to-r from-purple-600 via-pink-700 to-red-300 bg-clip-text text-transparent"
                 style={{
@@ -51,11 +51,11 @@ const About = () => {
                       "<Fullstack Developer>",
                       "",
                     ]}
-                    loop={100}
+                    loop={500}
                     cursor
                     cursorStyle="_"
-                    typeSpeed={30}
-                    deleteSpeed={30}
+                    typeSpeed={90}
+                    deleteSpeed={50}
                     delaySpeed={1000}
                     onLoopDone={handleDone}
                     onType={handleType}
@@ -75,7 +75,7 @@ const About = () => {
 
           {/* Best skills section */}
           <div className="md:space-y-6">
-            <div className="flex flex-col gap-6 md:flex-row justify-between">
+            <div className="flex flex-col gap-6 md:flex-row md:justify-between">
               <div className="space-y-2 flex-1">
                 <p
                   className="text-[#1E2125] uppercase font-semibold"
@@ -83,7 +83,7 @@ const About = () => {
                 >
                   Best skills
                 </p>
-                <div className="flex  justify-center gap-5 md:gap-2 flex-wrap items-center">
+                <div className="flex  justify-center md:justify-between gap-5 md:gap-2 flex-wrap items-center">
                   {[
                     { name: "JavaScript", bg: "#F7E025" },
                     { name: "Reactjs", bg: "#292929", text: "#08D9FF" },
@@ -91,9 +91,17 @@ const About = () => {
                     { name: "MongoDB", bg: "#C6E9BC", text: "#55AD47" },
                     { name: "Expressjs", bg: "#FFFFFF", text: "#000000" },
                     { name: "Nodejs", bg: "#C6E9BC", text: "#448A43" },
-                    { name: "AWS", bg: "#FF920C", text: "#213242" },
+                    { name: "AWS",
+                       bg: "#FF920C",
+                       text: "#213242"
+
+                     },
                     { name: "Docker", bg: "#FFFFFF", text: "#119FED" },
                     { name: "Redis", bg: "#D93327", text: "#FFFFFF" },
+                    { name: "Mern Stack", bg: "#1B1E27", text: "#FFFFFF" },
+
+                    { name: "mongoose", bg: "#448A43", text: "white" },
+                    
                     { name: "Git/Github", bg: "#FFFFFF", text: "#F4532E" },
                   ].map((skill, idx) => (
                     <div
