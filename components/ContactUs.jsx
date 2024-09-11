@@ -3,6 +3,7 @@ import { Linkedin, Mail, PhoneCall } from "lucide-react";
 import React, { useState } from "react";
 import { Form, Input, Button, message } from "antd";
 import Card from "antd/es/card/Card";
+import Link from "next/link";
 
 const ContactUs = () => {
   const [form] = Form.useForm();
@@ -102,12 +103,14 @@ const ContactUs = () => {
               </div>
 
               <div>
+                <Link href={'https://www.linkedin.com/in/rahul-44877b328/'}>
                 <p className="text-lg md:text-xl font-semibold">Follow Me</p>
                 <div className="flex gap-6 pt-6">
                   <div className="p-4 cursor-pointer rounded-lg" style={{ boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)" }}>
                     <Linkedin />
                   </div>
                 </div>
+                  </Link>
               </div>
             </div>
           </Card>
