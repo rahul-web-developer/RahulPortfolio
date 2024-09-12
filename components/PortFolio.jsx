@@ -1,4 +1,5 @@
 import { Card } from "antd";
+import Link from "next/link";
 import React from "react";
 
 const PortFolio = () => {
@@ -36,6 +37,7 @@ const PortFolio = () => {
 
          
                {/* cart1 */}
+          <Link href={'https://feedocenter.com/#/'} target="_Blank">   
           <div className="bg-[#EDF1F3] flex flex-col justify-center p-6 rounded-lg space-y-4 shadow-md">
             <div className="image-container overflow-hidden h-[250px] md:h-[300px] relative group">
               <img
@@ -51,10 +53,11 @@ const PortFolio = () => {
 
             <p className="">FeedBack system website</p>
           </div>
-       
+          </Link>  
 
 
             {/* cart2 */}
+             <Link href={'https://www.proflowers.com/'} target="_Blank"> 
           <div className="bg-[#EDF1F3] flex flex-col justify-center p-6 rounded-lg space-y-4 shadow-md">
             <div className="image-container overflow-hidden h-[250px] md:h-[300px] relative group">
               <img
@@ -70,10 +73,11 @@ const PortFolio = () => {
 
             <p className="">Flowers shop website</p>
           </div>
-        
+        </Link>
 
        
            {/* cart3 */}
+            <Link href={'https://www.fruitbae.com/'} target="_Blank"> 
            <div className="bg-[#EDF1F3] flex flex-col justify-center p-6 rounded-lg space-y-4 shadow-md">
             <div className="image-container overflow-hidden h-[250px] md:h-[300px] relative group">
               <img
@@ -89,10 +93,11 @@ const PortFolio = () => {
 
             <p className="">Fruit juice distributor website</p>
           </div>
-         
+         </Link>
 
         
            {/* cart4 */}
+            <Link href={'https://www.advanceskinhairclinic.com/'} target="_Blank"> 
            <div className="bg-[#EDF1F3] flex flex-col justify-center p-6 rounded-lg space-y-4 shadow-md">
             <div className="image-container overflow-hidden h-[250px] md:h-[300px] relative group">
               <img
@@ -108,10 +113,12 @@ const PortFolio = () => {
 
             <p className="">Skin and hair clinic</p>
           </div>
-        
+        </Link>
 
         
             {/* cart5 */}
+             <Link href={'https://www.amararaja.com/'} target="_Blank"> 
+
           <div className="bg-[#EDF1F3] flex flex-col justify-center p-6 rounded-lg space-y-4 shadow-md">
             <div className="image-container overflow-hidden h-[250px] md:h-[300px] relative group">
               <img
@@ -127,11 +134,12 @@ const PortFolio = () => {
 
             <p className="">Real estate website building business</p>
           </div>
-       
+       </Link>
 
          
       
            {/* cart6 */}
+            <Link href={'https://earnxj.vercel.app/'} target="_Blank"> 
            <div className="bg-[#EDF1F3] flex flex-col justify-center p-6 rounded-lg space-y-4 shadow-md">
             <div className="image-container overflow-hidden h-[250px] md:h-[300px] relative group">
               <img
@@ -147,7 +155,7 @@ const PortFolio = () => {
 
             <p className="">Crypto currency</p>
           </div>
-      
+          </Link>
 
         </div>
         {/* for project container end */}

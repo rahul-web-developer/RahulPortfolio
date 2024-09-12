@@ -24,7 +24,7 @@ const MyResume = () => {
           <div className="w-[120px] h-[120px] md:w-[150px] md:h-[150px] rounded-full overflow-hidden bg-center mb-4 md:mb-0">
             <img
               className="w-full h-full object-cover border-4"
-              src="ForPortfolioResume.png"
+              src="rahulme.jpg"
               alt="Profile"
             />
           </div>
