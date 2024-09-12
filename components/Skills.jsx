@@ -13,7 +13,7 @@ const Skills = () => {
 
           {/* Skills List */}
           {[
-            { skill: 'HTML', percentage: '70%' },
+            { skill: 'HTML', percentage: '60%' },
             { skill: 'CSS', percentage: '70%' },
             { skill: 'JAVASCRIPT', percentage: '70%' },
             { skill: 'Tailwindcss', percentage: '70%' },
@@ -25,7 +25,7 @@ const Skills = () => {
                 <p className="capitalize text-lg flex items-center gap-2" style={{ letterSpacing: "2px" }}>
                   <span>{skill}</span>
                 </p>
-                <p>{percentage}</p>
+              
               </div>
               <div className="w-full bg-gray-300 rounded-[20px]">
                 <div className="w-9/12 h-full p-1 bg-gradient-to-r from-gray-300 via-rose-500 to-rose-500"></div>
@@ -55,7 +55,7 @@ const Skills = () => {
                 <p className="capitalize text-lg flex items-center gap-2" style={{ letterSpacing: "2px" }}>
                   <span>{skill}</span>
                 </p>
-                <p>{percentage}</p>
+               
               </div>
               <div className="w-full bg-gray-300 rounded-[20px]">
                 <div className="w-9/12 h-full p-1 bg-gradient-to-r from-gray-300 via-rose-500 to-rose-500"></div>
@@ -85,7 +85,7 @@ const Skills = () => {
                 <p className="capitalize text-lg flex items-center gap-2" style={{ letterSpacing: "2px" }}>
                   <span>{skill}</span>
                 </p>
-                <p>{percentage}</p>
+               
               </div>
               <div className="w-full bg-gray-300 rounded-[20px]">
                 <div className="w-9/12 h-full p-1 bg-gradient-to-r from-gray-300 via-rose-500 to-rose-500"></div>

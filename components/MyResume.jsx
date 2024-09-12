@@ -190,7 +190,7 @@ const MyResume = () => {
                 Education
               </h1>
               <ul className="list-square pl-4">
-                <li>12th Ram Ratan Joshi Govt Sen Sec (2020-2021)</li>
+                <li>12th Ram Ratan Joshi Govt Sen Sec (2020-2022)</li>
                 <li>Full Stack Web Development Wap Institute (2020-2021)</li>
               </ul>
             </div>
@@ -204,10 +204,10 @@ const MyResume = () => {
                 <div>
                   <div className="flex items-center justify-between mb-2">
                     <h2 className="font-semibold capitalize">TechSunSet PVT LTD</h2>
-                    <p>2022 - 2024</p>
+                    <p>2021 - 2024</p>
                   </div>
                   <p className="capitalize">
-                    I was serving this company for the last 2 years+ as a Full Stack Developer. I was responsible for building user interfaces and APIs for clients and companies using AWS/Git. Approximately 6 months.
+                    I was serving this company for the last 3 years as a Full Stack Developer. I was responsible for building user interfaces and APIs for clients and companies using AWS/Git. Approximately 6 months.
                   </p>
                 </div>
                 <div>

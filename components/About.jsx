@@ -23,18 +23,22 @@ const About = () => {
         <div className="space-y-2 md:space-y-14 w-full md:w-6/12 pt-4">
           <div className="space-y-2 md:space-y-8">
             <p
-              className="text-[#3C3E41] text-lg uppercase"
+              className="hidden sm:block md:block lg:block text-[#3C3E41] text-lg uppercase"
               style={{ letterSpacing: "3px" }}
             >
               Welcome to my world
             </p>
-            <h1 className="text-4xl md:text-5xl text-[#1E2125] font-bold">
+            <h1 className="text-center sm:text-start md:text-start lg:text-start text-3xl md:text-5xl text-[#1E2125] font-bold">
               Hi, I’m <span className="text-[#FF014F]">Rahul</span>
             </h1>
-            <div className="text-1xl md:text-4xl font-bold flex gap-4 items-center">
+            <p className="text-[#1E2125] text-center sm:text-start md:text-start lg:text-start  font-semibold block sm:hidden md:hidden lg:hidden">I am FullStack Developer </p>
+            <p className="text-[#1E2125] text-center sm:text-start md:text-start lg:text-start  font-semibold block sm:hidden md:hidden lg:hidden"> 3 Year Of Experience </p>
+
+            <div className=" hidden sm:flex md:flex lg:flex text-1xl md:text-4xl font-bold  gap-4 items-center">
+              
               <span className="text-[#1E2125]">I am</span>
               <h1
-                className="font-bold t md:text-3xl bg-gradient-to-r from-purple-600 via-pink-700 to-red-300 bg-clip-text text-transparent"
+                className=" hidden sm:block md:block lg:block font-bold t md:text-3xl bg-gradient-to-r from-purple-600 via-pink-700 to-red-300 bg-clip-text text-transparent"
                 style={{
                   paddingTop: "0rem",
                   margin: "auto 0",
@@ -49,6 +53,7 @@ const About = () => {
                       "<Backend Developer>",
                       "<Nodejs Developer>",
                       "<Fullstack Developer>",
+                      "<3 Year Of Experience>",
                       "",
                     ]}
                     loop={500}
@@ -63,7 +68,7 @@ const About = () => {
                 </span>
               </h1>
             </div>
-            <p className="text-[#85888B] text-sm md:text-base">
+            <p className="text-[#85888B] hidden sm:block md:block lg:block text-sm md:text-base">
               MERN Stack Developer skilled in building scalable web apps with
               MongoDB, Express, React, and Node.js. Expert in API design,
               backend services, and responsive front-ends. Proficient in state
@@ -74,11 +79,11 @@ const About = () => {
           </div>
 
           {/* Best skills section */}
-          <div className="md:space-y-6">
+          <div className="pt-4 md:space-y-6">
             <div className="flex flex-col gap-6 md:flex-row md:justify-between">
               <div className="space-y-2 flex-1">
                 <p
-                  className="text-[#1E2125] uppercase font-semibold"
+                  className="text-[#1E2125] text-center lg:text-start sm:text-start md:text-start uppercase font-semibold"
                   style={{ letterSpacing: "3px" }}
                 >
                   Best skills

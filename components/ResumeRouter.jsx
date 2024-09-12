@@ -28,7 +28,7 @@ const ResumeRouter = ({ children }) => {
               letterSpacing: "1px",
             }}
           >
-            2+ Years of Experience
+            3 Years of Experience
           </p>
 
           <h1

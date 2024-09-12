@@ -6,7 +6,7 @@ const WhatIDo = () => {
     <div id="whatido" className="w-full h-full flex bg-[#ECF0F3] items-center justify-center py-24 border-b">
       <div className="w-10/12 h-full space-y-16">
         {/* heading */}
-        <div className="space-y-4 text-center md:text-left">
+        <div className="space-y-4 text-center md:text-center lg:text-center sm:text-center">
           <p
             className="text-[#F9004D] uppercase font-semibold"
             style={{
