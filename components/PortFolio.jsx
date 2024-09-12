@@ -1,3 +1,4 @@
+import { Card } from "antd";
 import React from "react";
 
 const PortFolio = () => {
@@ -31,7 +32,10 @@ const PortFolio = () => {
 
         {/* for project container start */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {/* cart1 */}
+
+
+         
+               {/* cart1 */}
           <div className="bg-[#EDF1F3] flex flex-col justify-center p-6 rounded-lg space-y-4 shadow-md">
             <div className="image-container overflow-hidden h-[250px] md:h-[300px] relative group">
               <img
@@ -47,8 +51,10 @@ const PortFolio = () => {
 
             <p className="">FeedBack system website</p>
           </div>
+       
 
-          {/* cart2 */}
+
+            {/* cart2 */}
           <div className="bg-[#EDF1F3] flex flex-col justify-center p-6 rounded-lg space-y-4 shadow-md">
             <div className="image-container overflow-hidden h-[250px] md:h-[300px] relative group">
               <img
@@ -64,9 +70,11 @@ const PortFolio = () => {
 
             <p className="">Flowers shop website</p>
           </div>
+        
 
-          {/* cart3 */}
-          <div className="bg-[#EDF1F3] flex flex-col justify-center p-6 rounded-lg space-y-4 shadow-md">
+       
+           {/* cart3 */}
+           <div className="bg-[#EDF1F3] flex flex-col justify-center p-6 rounded-lg space-y-4 shadow-md">
             <div className="image-container overflow-hidden h-[250px] md:h-[300px] relative group">
               <img
                 className="rounded-lg w-full object-cover group-hover:translate-y-[-50%] transition-transform duration-500 ease-in-out"
@@ -81,9 +89,11 @@ const PortFolio = () => {
 
             <p className="">Fruit juice distributor website</p>
           </div>
+         
 
-          {/* cart4 */}
-          <div className="bg-[#EDF1F3] flex flex-col justify-center p-6 rounded-lg space-y-4 shadow-md">
+        
+           {/* cart4 */}
+           <div className="bg-[#EDF1F3] flex flex-col justify-center p-6 rounded-lg space-y-4 shadow-md">
             <div className="image-container overflow-hidden h-[250px] md:h-[300px] relative group">
               <img
                 className="rounded-lg w-full object-cover group-hover:translate-y-[-50%] transition-transform duration-500 ease-in-out"
@@ -98,8 +108,10 @@ const PortFolio = () => {
 
             <p className="">Skin and hair clinic</p>
           </div>
+        
 
-          {/* cart5 */}
+        
+            {/* cart5 */}
           <div className="bg-[#EDF1F3] flex flex-col justify-center p-6 rounded-lg space-y-4 shadow-md">
             <div className="image-container overflow-hidden h-[250px] md:h-[300px] relative group">
               <img
@@ -115,9 +127,12 @@ const PortFolio = () => {
 
             <p className="">Real estate website building business</p>
           </div>
+       
 
-          {/* cart6 */}
-          <div className="bg-[#EDF1F3] flex flex-col justify-center p-6 rounded-lg space-y-4 shadow-md">
+         
+      
+           {/* cart6 */}
+           <div className="bg-[#EDF1F3] flex flex-col justify-center p-6 rounded-lg space-y-4 shadow-md">
             <div className="image-container overflow-hidden h-[250px] md:h-[300px] relative group">
               <img
                 className="rounded-lg w-full object-cover group-hover:translate-y-[-50%] transition-transform duration-500 ease-in-out"
@@ -132,6 +147,8 @@ const PortFolio = () => {
 
             <p className="">Crypto currency</p>
           </div>
+      
+
         </div>
         {/* for project container end */}
       </div>
