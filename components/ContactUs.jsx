@@ -44,7 +44,7 @@ const ContactUs = () => {
       </div>
       
       <div className="w-full md:w-10/12 flex justify-center space-y-8">
-        <div className="w-full flex gap-8 flex-col items-center md:flex-row">
+        <div className="w-full flex gap-8 flex-col  md:flex-row">
           {/* Form Card */}
           <Card className="w-full md:w-8/12">
             <div className="h-full justify-center">
@@ -90,23 +90,23 @@ const ContactUs = () => {
                 <h1 className="text-[#F86BAE] font-semibold text-2xl md:text-3xl">Contact Information</h1>
               </div>
 
-              <div className="pt-9">
+              <div className="pt-9 font-semibold md:text-lg">
                 <p>Behror Rajasthan</p>
                 <p>PIN: 301709</p>
               </div>
 
-              <div className="space-y-4">
+              <div className="space-y-4 font-semibold md:text-lg">
                 <p className="flex gap-2">
                   <PhoneCall />: +91 7014167069
                 </p>
-                <p className="flex gap-2">
+                <p className="flex gap-1 md:gap-2">
                   <Mail />: rahul123techsunset@gmail.com
                 </p>
               </div>
 
               <div>
-                <Link href={'https://www.linkedin.com/in/rahul-44877b328/'}>
-                <p className="text-lg md:text-xl font-semibold">Follow Me</p>
+                <Link href={'https://www.linkedin.com/in/rahul-44877b328/'} target="_Blank">
+                
                 <div className="flex gap-6 pt-6">
                   <div className="p-4 cursor-pointer rounded-lg" style={{ boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)" }}>
                     <Linkedin />
