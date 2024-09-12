@@ -15,20 +15,20 @@ const About = () => {
   return (
     <div
       id="myabout"
-      className="w-full bg-[#ECF0F3] min-h-screen flex justify-center md:py-6 border-b"
+      className="w-full bg-[#ECF0F3] min-h-screen flex justify-center md:py-14 border-b-1 border-gray-400"
     >
       <div className="w-10/12 flex flex-col-reverse md:flex-row md:justify-between ">
 
         {/* box 1 start */}
-        <div className="space-y-2 md:space-y-14 w-full md:w-6/12 pt-4">
-          <div className="space-y-2 md:space-y-8">
+        <div className="space-y-2 md:space-y-8 w-full md:w-6/12 ">
+          <div className="space-y-2 md:space-y-5">
             <p
               className="hidden sm:block md:block lg:block text-[#3C3E41] text-lg uppercase"
-              style={{ letterSpacing: "3px" }}
+              style={{ letterSpacing: "2px" }}
             >
               Welcome to my world
             </p>
-            <h1 className="text-center sm:text-start md:text-start lg:text-start text-3xl md:text-5xl text-[#1E2125] font-bold">
+            <h1 className="text-center sm:text-start md:text-start lg:text-start text-3xl md:text-4xl text-[#1E2125] font-bold">
               Hi, I’m <span className="text-[#FF014F]">Rahul</span>
             </h1>
             <p className="text-[#1E2125] text-center sm:text-start md:text-start lg:text-start  font-bold block sm:hidden md:hidden lg:hidden">I am FullStack Developer </p>
@@ -80,7 +80,7 @@ const About = () => {
           </div>
 
           {/* Best skills section */}
-          <div className="pt-28 sm:pt-4 md:pt-4 lg:pt-4 md:space-y-6">
+          <div className="pt-28 sm:pt-4 md:pt-4 lg:pt-3 md:space-y-5">
             <div className="flex flex-col gap-6 md:flex-row md:justify-between">
               <div className="space-y-2 flex-1">
                 <p
@@ -133,7 +133,7 @@ const About = () => {
         {/* box 1 end */}
 
         {/* box 2 start */}
-        <div className=" hidden md:w-5/12 sm:block lg:block md:block  h-full mt-8 md:mt-0">
+        <div className=" hidden md:w-4/12 sm:block lg:block md:block  h-full mt-8 md:mt-0">
           <img
             className="w-full rounded-full"
             src="dev/rahulme.jpg"
