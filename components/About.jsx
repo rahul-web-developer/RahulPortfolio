@@ -31,8 +31,9 @@ const About = () => {
             <h1 className="text-center sm:text-start md:text-start lg:text-start text-3xl md:text-5xl text-[#1E2125] font-bold">
               Hi, I’m <span className="text-[#FF014F]">Rahul</span>
             </h1>
-            <p className="text-[#1E2125] text-center sm:text-start md:text-start lg:text-start  font-semibold block sm:hidden md:hidden lg:hidden">I am FullStack Developer </p>
-            <p className="text-[#1E2125] text-center sm:text-start md:text-start lg:text-start  font-semibold block sm:hidden md:hidden lg:hidden"> 3 Year Of Experience </p>
+            <p className="text-[#1E2125] text-center sm:text-start md:text-start lg:text-start  font-bold block sm:hidden md:hidden lg:hidden">I am FullStack Developer </p>
+            <p className="text-[#1E2125] text-center sm:text-start md:text-start lg:text-start  font-bold block sm:hidden md:hidden lg:hidden">at Techsunset  </p>
+            <p className="text-[#1E2125] text-center sm:text-start md:text-start lg:text-start  font-bold block sm:hidden md:hidden lg:hidden"> 3 Years Of Experience </p>
 
             <div className=" hidden sm:flex md:flex lg:flex text-1xl md:text-4xl font-bold  gap-4 items-center">
               
@@ -53,7 +54,7 @@ const About = () => {
                       "<Backend Developer>",
                       "<Nodejs Developer>",
                       "<Fullstack Developer>",
-                      "<3 Year Of Experience>",
+                     
                       "",
                     ]}
                     loop={500}
@@ -143,7 +144,7 @@ const About = () => {
 
         {/* phone */}
             {/* box 2 start */}
-        <div className="flex sm:hidden lg:hidden md:hidden w-8/12  items-center flex-col justify-center mx-auto md:w-5/12 h-full mt-8 md:mt-0">
+        <div className="flex sm:hidden lg:hidden md:hidden w-9/12  items-center flex-col justify-center mx-auto md:w-5/12 h-full mt-8 md:mt-0">
           <img
             className="w-full rounded-full"
             src="dev/rahulme.jpg"
