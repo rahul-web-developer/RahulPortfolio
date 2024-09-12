@@ -20,7 +20,7 @@ const About = () => {
       <div className="w-10/12 flex flex-col-reverse md:flex-row md:justify-between ">
 
         {/* box 1 start */}
-        <div className="space-y-2 md:space-y-7 w-full md:w-6/12 pt-4">
+        <div className="space-y-2 md:space-y-14 w-full md:w-6/12 pt-4">
           <div className="space-y-2 md:space-y-8">
             <p
               className="text-[#3C3E41] text-lg uppercase"
@@ -130,7 +130,7 @@ const About = () => {
         <div className="w-full md:w-5/12 h-full mt-8 md:mt-0">
           <img
             className="w-full rounded-full"
-            src="dev/best.png"
+            src="dev/rahulme.jpg"
             alt="Developer illustration"
           />
         </div>
