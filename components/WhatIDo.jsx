@@ -51,7 +51,7 @@ const WhatIDo = () => {
             },
             {
               img: "developer/aws.jpeg",
-              title: "AWS Developer",
+              title: "AWS Cloud",
               desc: "AWS offers services like EC2, S3, and DynamoDB. These services assist developers in building scalable and secure applications in the cloud.",
             },
             {
