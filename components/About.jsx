@@ -79,7 +79,7 @@ const About = () => {
           </div>
 
           {/* Best skills section */}
-          <div className="pt-4 md:space-y-6">
+          <div className="pt-28 sm:pt-4 md:pt-4 lg:pt-4 md:space-y-6">
             <div className="flex flex-col gap-6 md:flex-row md:justify-between">
               <div className="space-y-2 flex-1">
                 <p
@@ -132,7 +132,7 @@ const About = () => {
         {/* box 1 end */}
 
         {/* box 2 start */}
-        <div className="w-full md:w-5/12 h-full mt-8 md:mt-0">
+        <div className=" hidden md:w-5/12 sm:block lg:block md:block  h-full mt-8 md:mt-0">
           <img
             className="w-full rounded-full"
             src="dev/rahulme.jpg"
@@ -140,6 +140,18 @@ const About = () => {
           />
         </div>
         {/* box 2 end */}
+
+        {/* phone */}
+            {/* box 2 start */}
+        <div className="flex sm:hidden lg:hidden md:hidden w-8/12  items-center flex-col justify-center mx-auto md:w-5/12 h-full mt-8 md:mt-0">
+          <img
+            className="w-full rounded-full"
+            src="dev/rahulme.jpg"
+            alt="Developer illustration"
+          />
+        </div>
+        {/* box 2 end */}
+
       </div>
     </div>
   );
