@@ -1,6 +1,51 @@
-import { Card } from "antd";
+
 import Link from "next/link";
 import React from "react";
+
+const portfolioItems = [
+  {
+    title: "FeedCenter",
+    description: "FeedBack system website",
+    image: "projects/project2.png",
+    link: "https://feedocenter.com/#/",
+    alt: "FeedCenter",
+  },
+  {
+    title: "Flowers",
+    description: "Flowers shop website",
+    image: "projects/project3.png",
+    link: "https://www.proflowers.com/",
+    alt: "Flowers",
+  },
+  {
+    title: "fruitbae.com",
+    description: "Fruit juice distributor website",
+    image: "projects/project4.png",
+    link: "https://www.fruitbae.com/",
+    alt: "fruitbae.com",
+  },
+  {
+    title: "advanceskinhair",
+    description: "Skin and hair clinic",
+    image: "projects/project5.png",
+    link: "https://www.advanceskinhairclinic.com/",
+    alt: "advanceskinhairclinic.com",
+  },
+  {
+    title: "amararaja.com",
+    description: "Real estate website building",
+    image: "projects/project6.png",
+    link: "https://www.amararaja.com/",
+    alt: "amararaja.com",
+  },
+  {
+    title: "EarnX crypto currency",
+    description: "Crypto currency",
+    image: "projects/project1.png",
+    link: "https://earnxj.vercel.app/",
+    alt: "EarnX crypto currency",
+  },
+];
 
 const PortFolio = () => {
   return (
@@ -13,152 +58,42 @@ const PortFolio = () => {
         <div className="flex items-center justify-center flex-col gap-6 mb-12">
           <p
             className="text-[#F9004D] uppercase text-lg md:text-xl"
-            style={{
-              letterSpacing: "1px",
-            }}
+            style={{ letterSpacing: "1px" }}
           >
             Visit my portfolio and keep your feedback
           </p>
 
           <h1
             className="text-[#3C3E41] font-bold text-3xl md:text-5xl"
-            style={{
-              letterSpacing: "2px",
-            }}
+            style={{ letterSpacing: "2px" }}
           >
             My Portfolio
           </h1>
         </div>
         {/* heading end */}
 
-        {/* for project container start */}
+        {/* project container start */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {portfolioItems.map((item, index) => (
+            <Link key={index} href={item.link} target="_blank">
+              <div className="bg-[#EDF1F3] flex flex-col justify-center p-6 rounded-lg space-y-4 shadow-md">
+                <div className="image-container overflow-hidden h-[250px] md:h-[300px] relative group">
+                  <img
+                    className="rounded-lg w-full object-cover group-hover:translate-y-[-50%] transition-transform duration-500 ease-in-out"
+                    src={item.image}
+                    alt={item.alt}
+                  />
+                </div>
 
-
-         
-               {/* cart1 */}
-          <Link href={'https://feedocenter.com/#/'} target="_Blank">   
-          <div className="bg-[#EDF1F3] flex flex-col justify-center p-6 rounded-lg space-y-4 shadow-md">
-            <div className="image-container overflow-hidden h-[250px] md:h-[300px] relative group">
-              <img
-                className="rounded-lg w-full object-cover group-hover:translate-y-[-50%] transition-transform duration-500 ease-in-out"
-                src="projects/project2.png"
-                alt="FeedCenter"
-              />
-            </div>
-
-            <h1 className="text-xl md:text-2xl font-semibold capitalize">
-              FeedCenter
-            </h1>
-
-            <p className="">FeedBack system website</p>
-          </div>
-          </Link>  
-
-
-            {/* cart2 */}
-             <Link href={'https://www.proflowers.com/'} target="_Blank"> 
-          <div className="bg-[#EDF1F3] flex flex-col justify-center p-6 rounded-lg space-y-4 shadow-md">
-            <div className="image-container overflow-hidden h-[250px] md:h-[300px] relative group">
-              <img
-                className="rounded-lg w-full object-cover group-hover:translate-y-[-50%] transition-transform duration-500 ease-in-out"
-                src="projects/project3.png"
-                alt="Flowers"
-              />
-            </div>
-
-            <h1 className="text-xl md:text-2xl font-semibold capitalize">
-              Flowers
-            </h1>
-
-            <p className="">Flowers shop website</p>
-          </div>
-        </Link>
-
-       
-           {/* cart3 */}
-            <Link href={'https://www.fruitbae.com/'} target="_Blank"> 
-           <div className="bg-[#EDF1F3] flex flex-col justify-center p-6 rounded-lg space-y-4 shadow-md">
-            <div className="image-container overflow-hidden h-[250px] md:h-[300px] relative group">
-              <img
-                className="rounded-lg w-full object-cover group-hover:translate-y-[-50%] transition-transform duration-500 ease-in-out"
-                src="projects/project4.png"
-                alt="fruitbae.com"
-              />
-            </div>
-
-            <h1 className="text-xl md:text-2xl font-semibold capitalize">
-              fruitbae.com
-            </h1>
-
-            <p className="">Fruit juice distributor website</p>
-          </div>
-         </Link>
-
-        
-           {/* cart4 */}
-            <Link href={'https://www.advanceskinhairclinic.com/'} target="_Blank"> 
-           <div className="bg-[#EDF1F3] flex flex-col justify-center p-6 rounded-lg space-y-4 shadow-md">
-            <div className="image-container overflow-hidden h-[250px] md:h-[300px] relative group">
-              <img
-                className="rounded-lg w-full object-cover group-hover:translate-y-[-50%] transition-transform duration-500 ease-in-out"
-                src="projects/project5.png"
-                alt="advanceskinhairclinic.com"
-              />
-            </div>
-
-            <h1 className="text-xl md:text-2xl font-semibold capitalize">
-              advanceskinhair
-            </h1>
-
-            <p className="">Skin and hair clinic</p>
-          </div>
-        </Link>
-
-        
-            {/* cart5 */}
-             <Link href={'https://www.amararaja.com/'} target="_Blank"> 
-
-          <div className="bg-[#EDF1F3] flex flex-col justify-center p-6 rounded-lg space-y-4 shadow-md">
-            <div className="image-container overflow-hidden h-[250px] md:h-[300px] relative group">
-              <img
-                className="rounded-lg w-full object-cover group-hover:translate-y-[-50%] transition-transform duration-500 ease-in-out"
-                src="projects/project6.png"
-                alt="amararaja.com"
-              />
-            </div>
-
-            <h1 className="text-xl md:text-2xl font-semibold capitalize">
-              amararaja.com
-            </h1>
-
-            <p className="">Real estate website building business</p>
-          </div>
-       </Link>
-
-         
-      
-           {/* cart6 */}
-            <Link href={'https://earnxj.vercel.app/'} target="_Blank"> 
-           <div className="bg-[#EDF1F3] flex flex-col justify-center p-6 rounded-lg space-y-4 shadow-md">
-            <div className="image-container overflow-hidden h-[250px] md:h-[300px] relative group">
-              <img
-                className="rounded-lg w-full object-cover group-hover:translate-y-[-50%] transition-transform duration-500 ease-in-out"
-                src="projects/project1.png"
-                alt="EarnX crypto currency"
-              />
-            </div>
-
-            <h1 className="text-xl md:text-2xl font-semibold capitalize">
-              EarnX crypto currency
-            </h1>
-
-            <p className="">Crypto currency</p>
-          </div>
-          </Link>
-
+                <h1 className="text-xl font-semibold capitalize">
+                  {item.title}
+                </h1>
+                <p>{item.description}</p>
+              </div>
+            </Link>
+          ))}
         </div>
-        {/* for project container end */}
+        {/* project container end */}
       </div>
     </div>
   );
