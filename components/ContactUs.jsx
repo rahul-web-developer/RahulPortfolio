@@ -59,20 +59,20 @@ const ContactUs = () => {
                 <Form form={form} layout="vertical" onFinish={handleFinish} className="w-full md:w-10/12">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                     <Form.Item name="fullname" rules={[{ required: true, message: "Please enter your full name" }]} label={<label>Name</label>}>
-                      <Input placeholder="Enter Fullname" style={{ borderRadius: "12px", padding: "12px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)" }} />
+                      <Input  type="text" placeholder="Enter Fullname" style={{ borderRadius: "12px", padding: "12px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)" }} />
                     </Form.Item>
 
-                    <Form.Item name="mobile" rules={[{ required: true, message: "Please enter your phone number" }]} label={<label>Phone</label>}>
-                      <Input placeholder="Contact number" style={{ borderRadius: "12px", padding: "12px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)" }} />
+                    <Form.Item name="mobile"  rules={[{ required: true, message: "Please enter your phone number" }]} label={<label>Phone</label>}>
+                      <Input type="number" placeholder="Contact number" style={{ borderRadius: "12px", padding: "12px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)" }} />
                     </Form.Item>
                   </div>
 
                   <Form.Item name="email" rules={[{ required: true, message: "Please enter your email" }]} label={<label>Email</label>}>
-                    <Input placeholder="Mail" style={{ borderRadius: "12px", padding: "12px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)" }} />
+                    <Input type="email" placeholder="Mail" style={{ borderRadius: "12px", padding: "12px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)" }} />
                   </Form.Item>
 
                   <Form.Item name="message" rules={[{ required: true, message: "Please enter your message" }]}  label={<label>Message</label>}>
-                    <Input.TextArea rows={3} placeholder="Message..." style={{ borderRadius: "12px", padding: "12px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)" }} />
+                    <Input.TextArea type="text" rows={3} placeholder="Message..." style={{ borderRadius: "12px", padding: "12px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)" }} />
                   </Form.Item>
 
                   <Button className="w-full md:w-32 h-12 font-semibold p-4 rounded-full" loading={load} type="primary" htmlType="submit" style={{ height: "40px", borderRadius: "12px", fontSize: "18px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)" }}>
